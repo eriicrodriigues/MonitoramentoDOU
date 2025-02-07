@@ -1,0 +1,5 @@
+.env
+ultimo_valor.txt
+
+__pycache__/
+venv/
