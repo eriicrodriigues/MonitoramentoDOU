@@ -1,7 +1,5 @@
 import os
 import requests
-import schedule
-import time
 from bs4 import BeautifulSoup
 
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
