@@ -63,10 +63,4 @@ def verificar_mudanca():
     else:
         print("✅ Nenhuma alteração detectada.")
 
-schedule.every().day.at("17:00").do(verificar_mudanca)
-
-print("🔍 Monitoramento iniciado. O script rodará todos os dias às 17h...")
-
-while True:
-    schedule.run_pending()
-    time.sleep(60)
+verificar_mudanca()
